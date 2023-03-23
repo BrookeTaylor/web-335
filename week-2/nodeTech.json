@@ -1,0 +1,31 @@
+{
+    "STUDENT": {
+        "studentId": 21398493,
+        "firstName": "Brooke",
+        "lastName": "Taylor",
+        "ENROLLMENT": [
+            {
+                "term": "Spring 2023",
+                "gpa": 4.0,
+                "startDate": "03/13/2023",
+                "endDate": "05/14/2023",
+                "COURSE" : [
+                    {
+                        "courseId": "WEB335-339A Introduction to NoSQL",
+                        "description": "Core Concepts of NoSQL, MySQL, and Python.",
+                        "instructor": "Professor Krasso",
+                        "score": 93.77,
+                        "letterGrade": "A"
+                    },
+                    {
+                        "courseId": "WEB420-339A RESTful APIs",
+                        "description": "APIs, REST methodologies, Node.js, and SoapUI.",
+                        "instructor": "Professor Krasso",
+                        "score": 94.40,
+                        "letterGrade": "A"
+                    }
+                ]
+            }
+        ]
+    }
+}

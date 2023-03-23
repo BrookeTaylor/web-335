@@ -1,0 +1,51 @@
+{
+    "CUSTOMER": {
+        "_id": 1,
+        "firstName": "Brooke",
+        "lastName": "Taylor",
+        "dateOfBirth": "02/08/1986",
+        "username": "anonyoumiss",
+        "INVOICE": [
+            {
+                "_id": 1,
+                "createDate": "03/22/2023",
+                "shipDate": "03/26/2023",
+                "subtotal": 80.31,
+                "LINEITEM": [
+                    {
+                        "_id": "0321826620",
+                        "productName": "NoSQL Distilled",
+                        "price": 35.32,
+                        "qty": 1
+                    },
+                    {
+                        "_id": "1617295108",
+                        "productName": "The Design of Web APIs",
+                        "price": 44.99,
+                        "qty": 1
+                    }
+                ]
+            }, 
+            {
+                "_id": 2,
+                "createDate": "03/22/2023",
+                "shipDate": "03/26/2023",
+                "subtotal": 68.29,
+                "LINEITEM": [
+                    {
+                        "_id": "1491954469",
+                        "productName": "MongoDB The Definitive Guide",
+                        "price": 27.80,
+                        "qty": 1
+                    },
+                    {
+                        "_id": "1718502702",
+                        "productName": "Python Crash Course",
+                        "price": 40.49,
+                        "qty": 1
+                    }
+                ]
+            }
+        ]
+    }
+}
