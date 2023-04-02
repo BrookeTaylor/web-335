@@ -1,0 +1,35 @@
+{
+    "PUBLISHERS": [
+        {
+            "_id": 1,
+            "name": "Addison-Wesley",
+            "code": 1234,
+            "address": "123 Main St",
+            "BOOKS": [
+                {
+                    "_id": 1,
+                    "isbn": 9780321826626,
+                    "name": "NoSQL Distilled",
+                    "price": 42.29,
+                    "AUTHORS": [
+                        {
+                            "_id": 1,
+                            "_first_name": "Pramod",
+                            "_last_name": "Sadalage",
+                            "phone": 1234567891,
+                            "email": "psadalage@email.com"
+                        },
+                        {
+                            "_id": 2,
+                            "_first_name": "Martin",
+                            "_last_name": "Fowler",
+                            "phone": 9876543219,
+                            "email": "mfowler@email.com"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

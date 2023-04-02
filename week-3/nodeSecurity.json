@@ -1,0 +1,36 @@
+{
+    "USERS": {
+        "_id": 1,
+        "_first_name": "Brooke",
+        "_last_name": "Taylor",
+        "ROLES": [
+            {
+                "_id": 1,
+                "role": "admin",
+                "PERMISSIONS": [
+                    {
+                        "_id": 1,
+                        "promote_member": true
+                    },
+                    {
+                        "_id": 2,
+                        "demote_lead": true
+                    },
+                    {
+                        "_id": 3,
+                        "lead_dismiss": true
+                    },
+                    {
+                        "_id": 4,
+                        "member_dismiss": true
+                    },
+                    {
+                        "_id": 5,
+                        "member_invite": true
+                    }
+                ]
+            }
+        ]
+    }
+}
+
